@@ -1,0 +1,145 @@
+/*
+# id
+. class
+*/
+
+
+/* Navigation Bar */
+#navBar{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #A7DBE8;
+}
+
+nav{
+	font-family: arial;
+}
+
+li a{
+	float: left;
+	display: block;
+  	color: black;
+  	text-align: center;
+  	padding: 0.5em 20px; /* top/bottom left/right */
+  	text-decoration: none;
+}
+
+li a:hover {
+  background-color: #1899BB;
+}
+
+nav{
+	padding: 0;
+}
+
+
+/* Containers in sections (body) DOESNT WORK?*/
+/*.bodyContainerLeft, .bodyContainerRight{
+	float: left;
+	display: block;
+	text-align: left;
+	padding: 0.5em 20px;
+}
+
+.objective, .experience, .education, .interests{
+	display: block;
+}*/
+
+/*separating containers from Renato's lab2 */
+.bodyContainerLeft{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bodyContainerRight{
+	width: 15%;
+	padding: 5px;
+	margin: 1px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+body{
+	font-family: georgia;
+	background-color: #F7F7F7;
+}
+
+.headerTitle{
+	background-color: #EDEDED;
+	border-radius: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.headerName{
+	margin: 0px;
+	background-color: #D5D6D8;
+	border-radius: 5px;
+	margin-top: 0;
+}
+
+.headerInfo{
+	padding: 0px;
+	margin: 0px;
+}
+
+.headerPic{
+	height: 200px;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+.objective, .experience, .education, .interests{
+	background-color: #EDEDED;
+	border-radius: 15px;
+	padding-bottom: 15px;
+}
+
+.sectionTitle{
+	text-align: center;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #D5D6D8;
+	font-size: 15px;
+	font-weight: bold;
+	/*padding-top, padding-bottom: 10px !important; 
+	padding: 1px;*/
+	margin-top: 5px;
+}
+
+
+/* Footer */
+address{
+	width: 50%;
+	/*display: inline-block;
+  	vertical-align: top;
+  	width: 50%;*/
+}
+
+.footerContainerRight{
+	-webkit-flex: 1;
+          	flex: 1;
+	/*display: inline-block;
+  	vertical-align: top;
+  	width: 50%;*/
+}
+
+.footerContainer{
+	margin-top: 20px;
+	background-color: #E0F1FE;
+	display: -webkit-flex;
+ 	display: flex;
+ 	font-family: arial;
+}
+
+
+
+
